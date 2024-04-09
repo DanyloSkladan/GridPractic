@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Три колонки равной ширины */
+    grid-gap: 10px; /* Пространство между элементами */
+  }
+
+  .grid-container__big{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .item__big{
+    background-color: #ccc;
+    text-align: center;
+    padding-bottom: 20px ;
+  }
+  
+  .grid-item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
