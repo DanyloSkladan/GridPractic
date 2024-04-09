@@ -1,12 +1,24 @@
+
+
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Три колонки равной ширины */
     grid-gap: 10px; /* Пространство между элементами */
+    grid-template-areas
   }
 
   .grid-container__big{
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 20px ;
   }
 
   .item__big{
