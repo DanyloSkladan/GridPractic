@@ -9,9 +9,13 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
+}
 
 
-
+.grid-container div{
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
 
 .grid-item {
@@ -23,6 +27,7 @@
 }
 
 .one {
+  display: grid;
   grid-column: 1/3;
   grid-row: 1/3;
   background-color: #ccc;
