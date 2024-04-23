@@ -101,4 +101,23 @@ body {
     display: grid;
     grid-column: 2/3;
   }
+
+  .thre{
+    grid-column: inherit;
+  }
+  
+  .two {
+    grid-column: 1/4;
+
+  }
+
+}
+
+@media (max-width: 570px) {
+
+
+  .grid-container div{
+    grid-column: 1/4;
+  }
+
 }
