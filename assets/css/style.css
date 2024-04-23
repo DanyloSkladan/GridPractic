@@ -99,6 +99,6 @@ body {
 
   .adap {
     display: grid;
-    grid-column: 2/4;
+    grid-column: 2/3;
   }
 }
