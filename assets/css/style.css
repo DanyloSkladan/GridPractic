@@ -1,5 +1,4 @@
-
-body{
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -21,7 +20,7 @@ body{
 }
 
 
-.grid-container div{
+.grid-container div {
   display: grid;
   place-items: center;
   text-align: center;
@@ -53,7 +52,7 @@ body{
   text-align: center;
 }
 
-.thre{
+.thre {
   grid-column: 1/2;
   background-color: #ccc;
   border-radius: 5px;
@@ -70,14 +69,35 @@ body{
 
 @media (max-width: 850px) {
 
-.one{
-  grid-column: 1/4;
-  grid-row: 1/4;
+  .one {
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+
+  .adap {
+    display: grid;
+    grid-column: 2/4;
+  }
+
 }
 
-.adap{
-  display: grid;
-  grid-column: 2/4;
+@media (max-width: 750px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
 
+
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .adap {
+    grid-column: 2/4;
+  }
 }
