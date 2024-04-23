@@ -1,3 +1,12 @@
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
 .container {
   max-width: 1220px;
   margin: 0 auto;
@@ -22,8 +31,6 @@
   background-color: #ccc;
   border-radius: 5px;
   padding: 20px;
-
-
 }
 
 .one {
@@ -55,3 +62,10 @@
 }
 
 
+
+
+/* adaptive  */
+
+
+
+@media (max-width: 1200px) 
